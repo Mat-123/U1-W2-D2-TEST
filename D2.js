@@ -55,7 +55,7 @@ if (num1 === 8 || num2 === 8) {
   console.log("Uno dei due numeri è uguale a 8");
 } else if (num1 + num2 === 8) {
   console.log("La somma tra " + num1 + " e " + num2 + "è 8.");
-} else {
+} else if (num2 - num1 === 8) {
   console.log("La differenza tra " + num2 + " e " + num1 + " è 8.");
 }
 */
