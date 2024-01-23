@@ -149,7 +149,13 @@ console.log(numbers);
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 8
+const value1 = "Jonnino";
+console.log(typeof value1);
+
+const value2 = null;
+console.log(typeof value2);
+*/
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -169,7 +175,16 @@ console.log(numbers);
     }
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* DA RIVEDERE
+let val = 7;
+if (val < 10) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
+*/
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -181,28 +196,73 @@ console.log(numbers);
   skills: ["javascript", "html", "css"],
 };*/
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 11
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+me.city = "Toronto";
+console.log("Mie caratteristiche", me);
++/
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+delete me.lastName;
+console.log("Me", me);
+*/
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* DA RIVEDERE
+const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+const me
+*/
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 14
+const numbers = [];
+console.log("Array vuoto", numbers);
+
+const numbers1 = numbers.push("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
+
+console.log(numbers);
++/
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 15
+const numbers = ["1", "5", "10"];
+console.log(numbers);
+
+const remnumbers = numbers.pop();
+
+console.log(numbers);
+
+const addnumbers = numbers.push(100);
+
+console.log(numbers);
+
+*/
