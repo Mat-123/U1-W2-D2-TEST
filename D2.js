@@ -13,7 +13,7 @@ if (num1 > num2) {
   alert("Il " + num2 + " è maggiore di " + num1);
   console.log("Il " + num2 + " è maggiore di " + num1);
 }
-+/
+*/
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -47,7 +47,7 @@ if (num1 % 5 == 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/*
+/* RISPOSTA 4
 const num1 = 12;
 const num2 = 20;
 
@@ -163,7 +163,18 @@ console.log(typeof value2);
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 9
+const num1 = 7;
+console.log(num1);
+
+let result = (num1 % 2);
+
+if (result > 0) {
+  console.log("Il numero inserito è dispari.")
+} else {
+  console.log("Il numero inserito è pari.")
+}
+*/
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -228,14 +239,18 @@ console.log("Me", me);
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* DA RIVEDERE
+/* RISPOSTA 13
 const me = {
   name: "John",
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
 
-const me
+console.log(me);
+
+delete me.skills.pop();
+
+console.log(me);
 */
 
 /* ESERCIZIO 14
