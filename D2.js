@@ -175,7 +175,7 @@ console.log(typeof value2);
     }
 */
 
-/*
+/* RISPOSTA 10
 let val = 7;
 if (val < 10) {
   console.log("Meno di 10");
